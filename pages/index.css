@@ -1,0 +1,46 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts.css);
+/* PRECISA SER INSERIDO NO HEAD DO HTML? */
+
+@import url(../blocks/body.css);
+
+@import url(../blocks/page.css);
+
+@import url(../blocks/header.css);
+
+@import url(../blocks/header__nav.css);
+
+@import url(../blocks/header__nav-menu.css);
+
+@import url(../blocks/header__intro.css);
+
+@import url(../blocks/header__image-box.css);
+
+@import url(../blocks/content.css);
+
+@import url(../blocks/about-me.css);
+
+@import url(../blocks/about-me__details.css);
+
+@import url(../blocks/about-me__image-box.css);
+
+@import url(../blocks/projects.css);
+
+@import url(../blocks/projects__title-box.css);
+
+@import url(../blocks/project__box.css);
+
+@import url(../blocks/project__details.css);
+
+@import url(../blocks/project__image-box.css);
+
+@import url(../blocks/footer.css);
+
+@import url(../blocks/footer__form-box.css);
+
+@import url(../blocks/footer__form.css);
+
+@import url(../blocks/footer__icons.css);
+
+@import url(../blocks/footer__vector.css);
