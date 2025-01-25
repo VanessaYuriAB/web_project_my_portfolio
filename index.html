@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Vanessa Yuri A. Brito" />
+    <meta
+      name="description"
+      content="Portifólio da Vanessa é uma página web que contém projetos e conteúdo pessoal. Bem como formas de contato."
+    />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- VERIFICAR: FAVICON NÃO ESTÁ FUNCIONANDO -->
+    <title>Portifólio da Vanessa</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="body">
+    <div class="page">
+      <header class="header">
+        <nav class="header__nav">
+          <p class="header__nav-name">Vanessa Yuri</p>
+          <ul class="header__nav-menu">
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#about-me">SOBRE MIM</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#projects">PROJETOS</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#contacts">CONTATOS</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__intro">
+          <div class="header__intro-craft">
+            DESENVOLVEDORA FULL STACK (em desenvolvimento).
+          </div>
+          <div class="header__intro-hello">Oi! Meu nome é Vanessa Yuri.</div>
+          <p class="header__intro-brief">
+            Atualmente, estou cursando bootcamp de Desevolvimento Web na
+            TripleTen. Previsão de formação em julho de 2025. Sou nova no
+            LinkedIn :).
+            <!-- COLOCAR TAG PARA DATA -->
+          </p>
+          <button class="header__intro-button header__intro-button_projects">
+            Projetos
+          </button>
+          <button class="header__intro-button header__intro-button_linkedin">
+            LinkedIn
+          </button>
+        </div>
+        <div class="header__image-box">
+          <img
+            class="header__image"
+            src="./images/my-photo.jpg"
+            alt="Uma foto minha. Estava sentada na mesa de um Ragazzo, com um braço apoiado e outro tirando a selfie, que, na realidade, é uma foto minha e do Belquior (meu filho). Ele estava tomando suco de limão no momento."
+          />
+          <div class="header__image-pic">Figura de fundo (amarela)</div>
+        </div>
+      </header>
+      <main class="content">
+        <section class="about-me" id="about-me">
+          <div class="section__title-box">
+            <h2 class="section__title">SOBRE MIM</h2>
+            <!-- H2 E DIV (ABAIXO) SÃO USADOS NOVAMENTE EM PROJECTS E NO FOOTER : VERIFICAR SOBRE NOMENCLATURA DAS CLASSES CONFORME BEM -->
+            <div class="section__rec">
+              "Detalhe de linha retângula abaixo do título"
+            </div>
+          </div>
+          <div class="about-me__details">
+            <p class="about-me__details-text">
+              <!-- COLOCAR TAG PARA DATA -->
+              Sou mãe solteira. O Belquior, hoje, está com 3 anos e 5 meses (em
+              jan/2025). Eu, com 35. <br />
+              Não possuo graduação. Tenho alguns anos de curso de inglês cursado
+              há anos atrás, mas não muita prática. Consigo ler bem melhor do
+              que falar e ouvir. <br />
+              Trabalhei em diversas áreas até aqui. O plano é me formar no
+              bootcamp e ingressar em algum curso específico para o ramo. Gostei
+              bastante da programação, tenho me dedicado :). <br />
+              Busco estabilidade e possibilidade de planejamento financeiro.
+              <br />
+              Fim.
+            </p>
+            <button class="about-me__details-button">Meu currículo</button>
+          </div>
+          <div class="about-me__image-box">
+            <img
+              class="about-me__image"
+              src="./images/about-me_photo.jpg"
+              alt="Uma foto minha e do Belquior. Estávamos em um aniversário infantil. No momento da foto, num parquinho a céu aberto. O dia estava super agradável."
+            />
+            <div class="about-me__image-circle">Círculo de fundo (amarelo)</div>
+          </div>
+        </section>
+        <section class="projects" id="projects">
+          <div class="section__title-box">
+            <h2 class="section__title">PROJETOS</h2>
+            <!-- H2 E DIV (ABAIXO) -->
+            <div class="section__rec">
+              "Detalhe de linha retângula abaixo do título"
+            </div>
+          </div>
+          <div class="project__box project__box_one">
+            <div class="project__details">
+              <h3 class="project__details-title">Projeto 1</h3>
+              <p class="project__details-about">Resumo sobre o projeto.</p>
+              <button class="project__details-button">Ver projeto</button>
+            </div>
+            <div class="project__image-box">
+              <img class="project__image" />
+            </div>
+          </div>
+          <div class="project__box project__box_two">
+            <div class="project__image-box">
+              <img class="project__image" />
+            </div>
+            <div class="project__details">
+              <h3 class="project__details-title">Projeto 2</h3>
+              <p class="project__details-about">Resumo sobre o projeto.</p>
+              <button class="project__details-button">Ver projeto</button>
+            </div>
+          </div>
+          <div class="project__box project__box_three">
+            <div class="project__details">
+              <h3 class="project__details-title">Projeto 3</h3>
+              <p class="project__details-about">Resumo sobre o projeto.</p>
+              <button class="project__details-button">Ver projeto</button>
+            </div>
+            <div class="project__image-box">
+              <img class="project__image" />
+            </div>
+          </div>
+          <div class="project__box project__box_four">
+            <div class="project__image-box">
+              <img class="project__image" />
+            </div>
+            <div class="project__details">
+              <h3 class="project__details-title">Projeto 4</h3>
+              <p class="project__details-about">Resumo sobre o projeto.</p>
+              <button class="project__details-button">Ver projeto</button>
+            </div>
+          </div>
+          <!--
+
+          *** MODELO PARA INSERIR NOVOS PROJETOS, SE ATENTAR AO DETALHE SOBRE ITEM ÍMPAR E ITEM PAR, OS MODELOS SÃO DIFERENTES! ***
+
+          ---ITEM ÍMPAR---
+          <div class="project__box project__box_ITEM ÍMPAR (COLOCAR, AQUI, O NÚMERO DO ITEM, ESCRITO EM INGLÊS)">
+            <div class="project__details">
+              <h3 class="project__details-title">Projeto (NÚMERO DO ITEM, EM NUMERAL)</h3>
+              <p class="project__details-about">Resumo sobre o projeto.</p>
+              <button class="project__details-button">Ver projeto</button>
+            </div>
+            <div class="project__image-box">
+              <img class="project__image" />
+            </div>
+          </div>
+
+          ---ITEM PAR---
+          <div class="project__box project__box_ITEM PAR (COLOCAR, AQUI, O NÚMERO DO ITEM, ESCRITO EM INGLÊS)">
+            <div class="project__image-box">
+              <img class="project__image" />
+            </div>
+            <div class="project__details">
+              <h3 class="project__details-title">Projeto (NÚMERO DO ITEM, EM NUMERAL)</h3>
+              <p class="project__details-about">Resumo sobre o projeto.</p>
+              <button class="project__details-button">Ver projeto</button>
+            </div>
+          </div>
+
+          -->
+        </section>
+      </main>
+      <footer class="footer" id="contacts">
+        <h4 class="footer__form-title">
+          Se sentir vontade, me mande uma mensagem :)
+        </h4>
+        <div class="footer__form-rec">
+          <!-- AQUI, VERIFICAR REUTILIZAÇÃO DAS LINHAS DOS TÍTULOS DAS SEÇÕES -->
+          "Detalhe de linha retângula abaixo do título"
+        </div>
+        <div class="footer__form-box">
+          <form class="footer__form">
+            <label class="footer__form-label">Seu nome</label>
+            <input class="footer__form-input" />
+            <label class="footer__form-label">Seu e-mail</label>
+            <input class="footer__form-input" />
+            <label class="footer__form-label">Sua mensagem</label>
+            <textarea class="footer__form-textarea"></textarea>
+            <button class="footer__form-button">Enviar</button>
+          </form>
+          <div class="footer__icons">
+            <a class="footer__icons-item" href=""><img />Instagram</a>
+            <a class="footer__icons-item" href=""><img />LinkedIn</a>
+            <a class="footer__icons-item" href=""><img />E-mail</a>
+            <p class="footer__icons-copyright">&copy; Vanessa Yuri 2025</p>
+          </div>
+        </div>
+        <div class="footer__vector">Vetor de fundo (amarelo)</div>
+      </footer>
+    </div>
+  </body>
+</html>
