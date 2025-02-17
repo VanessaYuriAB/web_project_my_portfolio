@@ -16,32 +16,32 @@
 
 @import url(../blocks/image-box.css);
 
-/**/
-
 @import url(../blocks/content.css);
 
 @import url(../blocks/about-me.css);
 
-@import url(../blocks/about-me__details.css);
+/*VERIFICAR SOBRE SECTION__TITLE-BOX*/
 
-@import url(../blocks/about-me__image-box.css);
+@import url(../blocks/details.css);
+
+@import url(../blocks/details-img-box.css);
 
 @import url(../blocks/projects.css);
 
-@import url(../blocks/projects__title-box.css);
+/*VERIFICAR SOBRE SECTION__TITLE-BOX*/
 
-@import url(../blocks/project__box.css);
+@import url(../blocks/box.css);
 
-@import url(../blocks/project__details.css);
+@import url(../blocks/project-details.css);
 
-@import url(../blocks/project__image-box.css);
+@import url(../blocks/project-img-box.css);
 
 @import url(../blocks/footer.css);
 
-@import url(../blocks/footer__form-box.css);
+/*VERIFICAR SOBRE SECTION__TITLE-BOX*/
 
-@import url(../blocks/footer__form.css);
+@import url(../blocks/form-box.css);
 
-@import url(../blocks/footer__icons.css);
+@import url(../blocks/form.css);
 
-@import url(../blocks/footer__vector.css);
+@import url(../blocks/contacts.css);
