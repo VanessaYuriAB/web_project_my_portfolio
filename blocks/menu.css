@@ -1,8 +1,18 @@
 .menu__nav-item {
-  width: 80px; /* VERIFICAR MEDIDA*/
+  width: max-content;
   text-align: center;
 }
 
 .menu__nav-link {
   text-decoration: none;
+  color: #000;
+}
+
+.menu__nav-link:hover {
+  opacity: 0.7;
+  /*animação para aumentar o tamanho do texto*/
+}
+
+.menu__nav-link:/*clicado*/ {
+  /*borda ou fundo e cor*/
 }

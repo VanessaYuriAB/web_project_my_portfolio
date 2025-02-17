@@ -1,7 +1,6 @@
 .page {
-  margin: 0 auto;
-  box-sizing: border-box;
-  background-color: #f9faff;
-  min-width: 1025px;
+  margin: 0 auto; /*PAGE NÃO ESTÁ CENTRALIZADA EM BODY*/
+  box-sizing: border-box; /*PREFIXOS*/
+  background-color: #e5e5e5;
   max-width: 1440px;
 }

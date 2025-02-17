@@ -1,10 +1,11 @@
 .nav__name {
+  margin: 0;
 }
 
 .nav__menu {
-  display: inline-flex;
+  display: flex;
   list-style-type: none;
   padding: 0;
-  column-gap: 10%; /* VERIFICAR MEDIDA*/
-  width: 25%;
+  margin: 0;
+  column-gap: 48px;
 }
