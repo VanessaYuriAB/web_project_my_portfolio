@@ -1,16 +1,16 @@
-.header__nav-menu {
-  display: flex;
+.menu {
+  display: inline-flex;
   list-style-type: none;
   padding: 0;
   column-gap: 10%; /* VERIFICAR MEDIDA*/
   width: 25%;
 }
 
-.header__nav-item {
+.menu__nav-item {
   width: 80px; /* VERIFICAR MEDIDA*/
   text-align: center;
 }
 
-.header__nav-link {
+.menu__nav-link {
   text-decoration: none;
 }

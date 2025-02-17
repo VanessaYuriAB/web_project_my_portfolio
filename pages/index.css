@@ -1,7 +1,6 @@
 @import url(../vendor/normalize.css);
 
 @import url(../vendor/fonts.css);
-/* PRECISA SER INSERIDO NO HEAD DO HTML? */
 
 @import url(../blocks/body.css);
 
@@ -9,13 +8,15 @@
 
 @import url(../blocks/header.css);
 
-@import url(../blocks/header__nav.css);
+@import url(../blocks/nav.css);
 
-@import url(../blocks/header__nav-menu.css);
+@import url(../blocks/menu.css);
 
-@import url(../blocks/header__intro.css);
+@import url(../blocks/intro.css);
 
-@import url(../blocks/header__image-box.css);
+@import url(../blocks/image-box.css);
+
+/**/
 
 @import url(../blocks/content.css);
 
