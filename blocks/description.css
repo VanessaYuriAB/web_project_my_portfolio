@@ -1,0 +1,25 @@
+/* Mobile first (padrão) */
+
+.description {
+}
+
+.description__title {
+  margin: 0;
+  font-size: 22px;
+}
+
+.description__hello {
+  margin: 19px 0 0;
+}
+
+.description__brief {
+  margin: 0;
+}
+
+/* Tablet e acima */
+
+@media (min-width: 768px) {
+  .description__title {
+    font-size: 32px;
+  }
+}

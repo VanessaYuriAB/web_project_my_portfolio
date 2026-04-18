@@ -1,17 +1,19 @@
-.intro__craft {
+/* Mobile first (padrão) */
+
+.intro {
 }
 
-.intro__hello {
+.intro__description {
 }
 
-.intro__brief {
+.intro__image-box {
+  margin: 24px auto 0;
 }
 
-.intro__button {
-}
+/* Tablet e acima */
 
-.intro__button_projects {
-}
-
-.intro__button_linkedin {
+@media (min-width: 768px) {
+  .intro__image-box {
+    margin: 38px auto 0;
+  }
 }

@@ -1,3 +1,31 @@
+/* Mobile first (padrão) */
+
 .body {
+  margin: 0;
   background-color: #fdc435;
+  color: #453201e1;
+}
+
+p {
+  font-size: 16px;
+}
+
+button {
+  margin-top: 12px;
+  background-color: #9290907f;
+  color: #00000090;
+  border-color: #00000090;
+  border-radius: 5px;
+}
+
+/* Tablet e acima */
+
+@media (min-width: 768px) {
+  p {
+    font-size: 18px;
+  }
+
+  button {
+    margin-top: 19px;
+  }
 }

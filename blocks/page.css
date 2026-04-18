@@ -1,6 +1,31 @@
+/* Mobile first (padrão) */
+
 .page {
-  margin: 0 auto; /*PAGE NÃO ESTÁ CENTRALIZADA EM BODY*/
-  box-sizing: border-box; /*PREFIXOS*/
-  background-color: #e5e5e5;
-  max-width: 1440px;
+  width: 95%;
+  max-width: 767px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #2b2a2a7d;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page__header {
+}
+
+.page__content {
+  flex: 1;
+}
+
+.page__footer {
+}
+
+/* Tablet e acima */
+
+@media (min-width: 768px) {
+  .page {
+    max-width: 1440px;
+  }
 }

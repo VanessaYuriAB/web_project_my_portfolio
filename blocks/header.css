@@ -1,17 +1,21 @@
+/* Mobile first (padrão) */
+
 .header {
   display: flex;
   flex-wrap: wrap;
 }
 
 .header__nav {
-  width: 83.33%;
-  display: flex;
-  justify-content: space-between;
+  width: 90%;
+  min-height: 30px;
   margin: 14px auto 0;
 }
 
-.header__intro {
+.header__name {
+  margin: 14px auto 0;
 }
 
-.header__image-box {
+/* Tablet e acima */
+
+@media (min-width: 768px) {
 }

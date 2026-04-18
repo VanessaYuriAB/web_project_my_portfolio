@@ -1,5 +1,22 @@
-.about-me__details {
+/* Mobile first (padrão) */
+
+.about-me {
 }
 
-.about-me__details-img-box {
+.about-me__title-box {
+}
+
+.about-me__brief {
+}
+
+.about-me__image-box {
+  margin: 24px auto 0;
+}
+
+/* Tablet e acima */
+
+@media (min-width: 768px) {
+  .about-me__image-box {
+    margin: 24px auto 0;
+  }
 }

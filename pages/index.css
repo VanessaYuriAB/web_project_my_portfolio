@@ -12,35 +12,25 @@
 
 @import url(../blocks/menu.css);
 
+@import url(../blocks/content.css);
+
 @import url(../blocks/intro.css);
+
+@import url(../blocks/description.css);
 
 @import url(../blocks/image-box.css);
 
-@import url(../blocks/content.css);
-
 @import url(../blocks/about-me.css);
 
-/*VERIFICAR SOBRE SECTION__TITLE-BOX*/
+@import url(../blocks/title-box.css);
 
-@import url(../blocks/details.css);
-
-@import url(../blocks/details-img-box.css);
+@import url(../blocks/brief.css);
 
 @import url(../blocks/projects.css);
 
-/*VERIFICAR SOBRE SECTION__TITLE-BOX*/
-
-@import url(../blocks/box.css);
-
-@import url(../blocks/project-details.css);
-
-@import url(../blocks/project-img-box.css);
+@import url(../blocks/details.css);
 
 @import url(../blocks/footer.css);
-
-/*VERIFICAR SOBRE SECTION__TITLE-BOX*/
-
-@import url(../blocks/form-box.css);
 
 @import url(../blocks/form.css);
 

@@ -1,5 +1,31 @@
-.image-box__jpg {
+/* Mobile first (padrão) */
+
+.image-box {
 }
 
 .image-box__background {
+  background-color: #fdc4355b;
+  min-width: 260px;
+  height: 354px;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 20px;
+}
+
+.image-box__background_about-me {
+  height: 304px;
+}
+
+.image-box__jpg {
+  margin: 0 auto;
+  align-self: center;
+  border-radius: 20px;
+  width: 95%;
+  height: 95%;
+  max-width: 260px;
+}
+
+/* Tablet e acima */
+
+@media (min-width: 768px) {
 }

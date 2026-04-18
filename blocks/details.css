@@ -1,5 +1,25 @@
-.details__text {
+/* Mobile first (padrão) */
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details__title {
+  margin: 0;
+}
+
+.details__brief {
+  margin: 0;
 }
 
 .details__button {
+  width: 100%;
+}
+
+/* Tablet e acima */
+
+@media (min-width: 768px) {
 }

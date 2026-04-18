@@ -1,3 +1,8 @@
+/* Mobile first (padrão) */
+
+.menu {
+}
+
 .menu__nav-item {
   width: max-content;
   text-align: center;
@@ -5,14 +10,18 @@
 
 .menu__nav-link {
   text-decoration: none;
-  color: #000;
+  color: #fdc435;
 }
 
 .menu__nav-link:hover {
   opacity: 0.7;
-  /*animação para aumentar o tamanho do texto*/
 }
 
-.menu__nav-link:/*clicado*/ {
+.menu__nav-link:active {
   /*borda ou fundo e cor*/
+}
+
+/* Tablet e acima */
+
+@media (min-width: 768px) {
 }

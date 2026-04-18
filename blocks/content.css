@@ -1,8 +1,28 @@
+/* Mobile first (padrão) */
+
 .content {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.content__intro {
+  width: 100%;
+  margin: 24px auto 0;
 }
 
 .content__about-me {
 }
 
 .content__projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Tablet e acima */
+
+@media (min-width: 768px) {
+  .content__intro {
+    margin: 38px auto 0;
+  }
 }

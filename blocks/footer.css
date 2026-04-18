@@ -1,8 +1,35 @@
+/* Mobile first (padrão) */
+
 .footer {
+  width: 85%;
+  margin: 0 auto;
 }
 
-.footer__form-box {
+.footer__title-box {
+}
+
+.footer__form {
+  margin-top: 12px;
+}
+
+.footer__contacts {
+  margin-top: 24px;
+}
+
+.footer__copyright {
 }
 
 .footer__background {
+}
+
+/* Tablet e acima */
+
+@media (min-width: 768px) {
+  .footer__form {
+    margin-top: 19px;
+  }
+
+  .footer__contacts {
+    margin-top: 38px;
+  }
 }
