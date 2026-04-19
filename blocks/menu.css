@@ -14,18 +14,26 @@
 
   will-change: filter;
   transition: filter 300ms;
+
+  border-radius: 5px;
 }
 
 .menu__nav-link:hover {
   opacity: 0.7;
 
   filter: drop-shadow(
-    0 0 0.5em rgba(236, 232, 7, 0.905)
+    0 0 0.5em rgba(244, 232, 4, 0.841)
   ); /* aplica iluminação */
 }
 
 .menu__nav-link:active {
-  /*borda ou fundo e cor*/
+  opacity: 0.5;
+}
+
+/* Foco visível (acessibilidade) */
+.menu__nav-link:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 1px rgba(246, 206, 3, 0.905);
 }
 
 /* Tablet e acima */
