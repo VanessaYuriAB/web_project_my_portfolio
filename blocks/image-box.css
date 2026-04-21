@@ -27,4 +27,11 @@
 /* Tablet e acima */
 
 @media (min-width: 768px) {
+  .image-box__background {
+    justify-content: center;
+  }
+
+  .image-box__jpg {
+    margin: 0;
+  }
 }
