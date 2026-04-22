@@ -17,6 +17,8 @@
 }
 
 .footer__copyright {
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .footer__background {
@@ -31,5 +33,10 @@
 
   .footer__contacts {
     margin-top: 38px;
+  }
+
+  .footer__copyright {
+    margin-top: 38px;
+    margin-bottom: 38px;
   }
 }
