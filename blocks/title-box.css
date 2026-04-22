@@ -3,17 +3,42 @@
 .title-box {
   margin: 0 auto;
   text-align: center;
-  margin: 24px auto 0;
+  margin: 48px auto 0;
 }
 
 .title-box__title {
   margin: 0;
+  font-size: 20px;
+}
+
+.title-box__title_footer {
+  font-size: 18px;
 }
 
 /* Tablet e acima */
 
 @media (min-width: 768px) {
   .title-box {
-    margin: 38px auto 0;
+    margin: 76px auto 0;
+  }
+
+  .title-box_about-me {
+    margin: 0;
+  }
+
+  .title-box__title {
+    font-size: 22px;
+  }
+
+  .title-box__title_about-me {
+    text-align: right;
+  }
+
+  .title-box__title_footer {
+    font-size: 20px;
+  }
+
+  .title-box__rec_about-me {
+    text-align: right;
   }
 }
