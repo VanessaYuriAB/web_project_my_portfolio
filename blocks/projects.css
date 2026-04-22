@@ -16,14 +16,11 @@
   justify-content: center;
 }
 
-.projects__pair {
+.projects__pair-items {
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.projects__item {
-  margin: 0;
 }
 
 .projects__details {
