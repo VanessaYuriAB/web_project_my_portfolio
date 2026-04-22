@@ -1,11 +1,29 @@
 /* Mobile first (padrão) */
 
 .projects {
-  width: 100%;
 }
 
 .projects__title-box {
   width: 100%;
+}
+
+.projects__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects__pair {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects__item {
+  margin: 0;
 }
 
 .projects__details {

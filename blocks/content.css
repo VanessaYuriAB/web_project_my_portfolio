@@ -18,6 +18,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
 }
 
 /* Tablet e acima */
@@ -30,5 +31,8 @@
 
   .content__about-me {
     width: 90%;
+  }
+
+  .content__projects {
   }
 }
