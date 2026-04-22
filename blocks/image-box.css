@@ -2,7 +2,7 @@
 
 .image-box {
   background-color: #fdc4355b;
-  min-width: 260px;
+  max-width: 619px;
   height: 294px;
   display: flex;
   border-radius: 20px;
@@ -18,6 +18,7 @@
   border-radius: 20px;
   width: 75%;
   max-width: 210px;
+  object-fit: contain;
 
   -webkit-mask-image: radial-gradient(
     ellipse at center,
@@ -33,6 +34,7 @@
   .image-box {
     justify-content: center;
     margin-left: 38px;
+    max-width: 418px;
   }
 
   .image-box_about-me {
