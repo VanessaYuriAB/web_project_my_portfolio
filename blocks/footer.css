@@ -12,6 +12,12 @@
   margin-top: 12px;
 }
 
+.footer__form-note {
+  font-size: 12px;
+  margin: 12px auto 0;
+  text-align: center;
+}
+
 .footer__contacts {
   margin-top: 24px;
 }
@@ -29,6 +35,11 @@
 @media (min-width: 768px) {
   .footer__form {
     margin-top: 19px;
+  }
+
+  .footer__form-note {
+    font-size: 14px;
+    margin: 19px auto 0;
   }
 
   .footer__contacts {
