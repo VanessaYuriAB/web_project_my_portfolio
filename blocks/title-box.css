@@ -8,6 +8,7 @@
 .title-box__title {
   margin: 0;
   font-size: 20px;
+  text-rendering: optimizeLegibility;
 }
 
 .title-box__rec {

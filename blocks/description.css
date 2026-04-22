@@ -6,6 +6,7 @@
 .description__title {
   margin: 0;
   font-size: 22px;
+  text-rendering: optimizeLegibility;
 }
 
 .description__hello {
