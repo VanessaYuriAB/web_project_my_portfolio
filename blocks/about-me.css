@@ -3,6 +3,9 @@
 .about-me {
 }
 
+.about-me__column {
+}
+
 .about-me__title-box {
 }
 
@@ -16,7 +19,27 @@
 /* Tablet e acima */
 
 @media (min-width: 768px) {
+  .about-me {
+    margin: 76px auto 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .about-me__column {
+    width: 50%;
+  }
+
+  .about-me__title-box {
+  }
+
+  .about-me__brief {
+    text-align: right;
+  }
+
   .about-me__image-box {
-    margin: 24px auto 0;
+    margin: 0;
+    width: 40%;
   }
 }
