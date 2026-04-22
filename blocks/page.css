@@ -4,12 +4,22 @@
   width: 95%;
   max-width: 767px;
   margin: 0 auto;
-  box-sizing: border-box;
+
   background-color: #2b2a2a3d;
+  color: #453201e1;
 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .page__header {
