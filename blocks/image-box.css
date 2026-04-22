@@ -1,18 +1,14 @@
 /* Mobile first (padrão) */
 
 .image-box {
-}
-
-.image-box__background {
   background-color: #fdc4355b;
   min-width: 260px;
   height: 294px;
-  margin: 0 auto;
   display: flex;
   border-radius: 20px;
 }
 
-.image-box__background_about-me {
+.image-box_about-me {
   height: 244px;
 }
 
@@ -22,13 +18,26 @@
   border-radius: 20px;
   width: 75%;
   max-width: 210px;
+
+  -webkit-mask-image: radial-gradient(
+    ellipse at center,
+    black 60%,
+    transparent 100%
+  );
+  mask-image: radial-gradient(ellipse at center, black 60%, transparent 100%);
 }
 
 /* Tablet e acima */
 
 @media (min-width: 768px) {
-  .image-box__background {
+  .image-box {
     justify-content: center;
+    margin-left: 38px;
+  }
+
+  .image-box_about-me {
+    margin-left: 0;
+    margin-right: 38px;
   }
 
   .image-box__jpg {
