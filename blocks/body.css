@@ -10,55 +10,10 @@ p {
   font-size: 16px;
 }
 
-.button {
-  /* Reset de <a> */
-  text-decoration: none;
-
-  /* Aparência de botão */
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  margin-top: 12px;
-  padding: 6px 9px;
-  border-radius: 5px;
-
-  cursor: pointer;
-
-  /* Transições suaves */
-  transition:
-    background-color 0.2s ease,
-    box-shadow 0.2s ease,
-    transform 0.1s ease;
-
-  /* Cores */
-  background-color: #9290907f;
-  color: #00000090;
-}
-
-.button:hover {
-  background-color: #9290903f;
-}
-
-.button:active {
-  transform: translateY(1px);
-  border: 1px solid #00000090;
-}
-
-/* Foco visível (acessibilidade) */
-.button:focus-visible {
-  outline: none;
-  box-shadow: 0 0 0 1px rgba(246, 206, 3, 0.905);
-}
-
 /* Tablet e acima */
 
 @media (min-width: 768px) {
   p {
     font-size: 18px;
-  }
-
-  .button {
-    margin-top: 19px;
   }
 }
