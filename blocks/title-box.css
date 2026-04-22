@@ -10,10 +10,6 @@
   font-size: 20px;
 }
 
-.title-box__title_footer {
-  font-size: 18px;
-}
-
 .title-box__rec {
   width: 35%;
   height: 1px;
@@ -38,10 +34,6 @@
 
   .title-box__title_about-me {
     text-align: right;
-  }
-
-  .title-box__title_footer {
-    font-size: 20px;
   }
 
   .title-box__rec_about-me {
