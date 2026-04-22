@@ -18,9 +18,9 @@
 
 @import url(../blocks/description.css);
 
-@import url(../blocks/image-box.css);
-
 @import url(../blocks/button.css);
+
+@import url(../blocks/image-box.css);
 
 @import url(../blocks/about-me.css);
 
