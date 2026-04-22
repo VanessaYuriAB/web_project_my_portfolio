@@ -15,6 +15,13 @@
   font-size: 18px;
 }
 
+.title-box__rec {
+  width: 35%;
+  height: 1px;
+  background-color: #92909081;
+  margin: 5px auto;
+}
+
 /* Tablet e acima */
 
 @media (min-width: 768px) {
@@ -39,6 +46,6 @@
   }
 
   .title-box__rec_about-me {
-    text-align: right;
+    margin: 5px 0 0 auto;
   }
 }
