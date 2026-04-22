@@ -15,7 +15,7 @@
 @media (min-width: 768px) {
   .intro {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
@@ -25,5 +25,6 @@
 
   .intro__image-box {
     margin: 0;
+    width: 40%;
   }
 }
