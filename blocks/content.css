@@ -9,7 +9,7 @@
 }
 
 .content__about-me {
-  width: 100%;
+  margin: 48px auto 0;
 }
 
 .content__projects {
@@ -27,7 +27,7 @@
   }
 
   .content__about-me {
-    width: 90%;
+    margin: 76px auto 0;
   }
 
   .content__projects {

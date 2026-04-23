@@ -1,8 +1,5 @@
 /* Mobile first (padrão) */
 
-.brief {
-}
-
 .brief__text {
   margin: 19px 0 0;
 }
@@ -10,4 +7,7 @@
 /* Tablet e acima */
 
 @media (min-width: 768px) {
+  .brief {
+    text-align: right;
+  }
 }

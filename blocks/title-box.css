@@ -2,7 +2,6 @@
 
 .title-box {
   text-align: center;
-  margin: 48px auto 0;
 }
 
 .title-box__title {
@@ -22,14 +21,6 @@
 /* Tablet e acima */
 
 @media (min-width: 768px) {
-  .title-box {
-    margin: 76px auto 0;
-  }
-
-  .title-box_about-me {
-    margin: 0;
-  }
-
   .title-box__title {
     font-size: 22px;
   }
