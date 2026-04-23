@@ -13,7 +13,7 @@
   border: none;
   margin-bottom: 0.375rem;
   color: #929090d2;
-  padding: 5px;
+  padding: 0.375em;
 }
 
 .form__input:focus {
@@ -31,7 +31,7 @@
   border-radius: 5px;
   border: none;
   color: #929090d2;
-  padding: 5px;
+  padding: 0.375em;
 }
 
 .form__textarea:focus {
