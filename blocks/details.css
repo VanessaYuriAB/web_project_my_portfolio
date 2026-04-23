@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   max-width: 200px;
-  min-height: 270px;
+  min-height: 285px;
 
   background-color: #fdc4355b;
   color: #453201e1;
@@ -34,6 +34,6 @@
   .details {
     max-width: 90%;
     min-width: 90%;
-    min-height: 150px;
+    min-height: 165px;
   }
 }
