@@ -3,6 +3,18 @@
 .details {
   display: flex;
   flex-direction: column;
+  max-width: 200px;
+  min-height: 270px;
+
+  background: radial-gradient(
+    ellipse at center,
+    #fdc43527 5%,
+    #fdc43529 90%,
+    #4532017d 100%
+  );
+
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .details__title {
@@ -17,9 +29,16 @@
 
 .details__button {
   margin-top: auto;
+  width: 50%;
+  align-self: center;
 }
 
 /* Tablet e acima */
 
 @media (min-width: 768px) {
+  .details {
+    max-width: 90%;
+    min-width: 90%;
+    min-height: 150px;
+  }
 }
