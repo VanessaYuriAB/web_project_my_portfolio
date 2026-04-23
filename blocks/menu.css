@@ -1,8 +1,5 @@
 /* Mobile first (padrão) */
 
-.menu {
-}
-
 .menu__nav-item {
   width: max-content;
   text-align: center;
