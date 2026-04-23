@@ -1,0 +1,15 @@
+@font-face {
+  src:
+    url(../vendor/fonts/Cause-Regular.woff2) format("woff2"),
+    url(../vendor/fonts/Cause-Regular.woff) format("woff"),
+    url(../vendor/fonts/Cause-Regular.ttf) format("truetype");
+  font-family: "Cause";
+}
+
+@font-face {
+  src:
+    url(../vendor/fonts/Cause-Bold.woff2) format("woff2"),
+    url(../vendor/fonts/Cause-Bold.woff) format("woff"),
+    url(../vendor/fonts/Cause-Bold.ttf) format("truetype");
+  font-family: "Cause-Bold";
+}

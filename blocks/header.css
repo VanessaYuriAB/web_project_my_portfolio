@@ -15,7 +15,7 @@
 .header__name {
   margin: 14px auto 0;
   font-size: 12px;
-  font-weight: 600;
+  font-family: "Cause-Bold", "Trebuchet MS", "Gill Sans", Calibri, sans-serif;
   color: #453201e1;
 
   filter: drop-shadow(
