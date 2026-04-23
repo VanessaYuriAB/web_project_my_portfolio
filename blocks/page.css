@@ -23,6 +23,7 @@
 }
 
 .page__footer {
+  margin: 76px auto 0;
 }
 
 /* Tablet e acima */
@@ -30,5 +31,9 @@
 @media (min-width: 768px) {
   .page {
     max-width: 1440px;
+  }
+
+  .page__footer {
+    margin: 96px auto 0;
   }
 }
