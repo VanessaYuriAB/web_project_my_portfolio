@@ -14,7 +14,7 @@
 
 .header__name {
   margin: 14px auto 0;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-family: "Cause-Bold", "Trebuchet MS", "Gill Sans", Calibri, sans-serif;
   color: #453201e1;
 
@@ -30,7 +30,7 @@
 
 @media (min-width: 768px) {
   .header__name {
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: left;
   }
 }

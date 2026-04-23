@@ -5,7 +5,7 @@
 }
 
 .footer__title {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #453201e1;
   margin: 0 auto;
   text-align: center;
@@ -17,7 +17,7 @@
 }
 
 .footer__form-note {
-  font-size: 12px;
+  font-size: 0.75rem;
   margin: 12px auto 0;
   text-align: start;
   width: 70%;
@@ -39,7 +39,7 @@
 
 @media (min-width: 768px) {
   .footer__title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .footer__form {
@@ -47,7 +47,7 @@
   }
 
   .footer__form-note {
-    font-size: 14px;
+    font-size: 0.875rem;
     margin: 19px auto 0;
   }
 

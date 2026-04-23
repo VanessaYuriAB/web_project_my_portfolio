@@ -6,7 +6,7 @@
 
 .title-box__title {
   margin: 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #453201e1;
   text-rendering: optimizeLegibility;
 }
@@ -22,7 +22,7 @@
 
 @media (min-width: 768px) {
   .title-box__title {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .title-box__title_about-me {
