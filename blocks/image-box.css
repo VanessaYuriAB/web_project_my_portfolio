@@ -2,10 +2,10 @@
 
 .image-box {
   background-color: #fdc4355b;
+  border-radius: 20px;
   max-width: 619px;
   height: 294px;
   display: flex;
-  border-radius: 20px;
 }
 
 .image-box_about-me {
@@ -14,10 +14,10 @@
 
 .image-box__jpg {
   margin: 0 auto;
-  align-self: center;
   border-radius: 20px;
   width: 75%;
   max-width: 210px;
+  align-self: center;
   object-fit: contain;
 
   -webkit-mask-image: radial-gradient(
@@ -32,17 +32,7 @@
 
 @media (min-width: 768px) {
   .image-box {
-    justify-content: center;
-    margin-left: 38px;
+    width: 40%;
     max-width: 418px;
-  }
-
-  .image-box_about-me {
-    margin-left: 0;
-    margin-right: 38px;
-  }
-
-  .image-box__jpg {
-    margin: 0;
   }
 }

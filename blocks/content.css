@@ -5,7 +5,6 @@
 }
 
 .content__intro {
-  width: 100%;
   margin: 24px auto 0;
 }
 
@@ -25,7 +24,6 @@
 @media (min-width: 768px) {
   .content__intro {
     margin: 38px auto 0;
-    width: 90%;
   }
 
   .content__about-me {

@@ -1,11 +1,5 @@
 /* Mobile first (padrão) */
 
-.intro {
-}
-
-.intro__description {
-}
-
 .intro__image-box {
   margin: 24px auto 0;
 }
@@ -19,12 +13,8 @@
     align-items: center;
   }
 
-  .intro__description {
-    width: 50%;
-  }
-
   .intro__image-box {
     margin: 0;
-    width: 40%;
+    margin-left: 38px;
   }
 }
