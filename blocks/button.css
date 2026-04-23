@@ -23,7 +23,7 @@
 
   /* Cores */
   background-color: #9290907f;
-  color: #00000090;
+  color: #453201e1;
 }
 
 .button:hover {
@@ -32,7 +32,7 @@
 
 .button:active {
   transform: translateY(1px);
-  border: 1px solid #00000090;
+  border: 1px solid #453201e1;
 }
 
 /* Foco visível (acessibilidade) */

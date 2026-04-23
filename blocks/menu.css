@@ -10,7 +10,7 @@
 
 .menu__nav-link {
   text-decoration: none;
-  color: #fdc435;
+  color: #f2dca4e1;
 
   will-change: filter;
   transition: filter 300ms;
