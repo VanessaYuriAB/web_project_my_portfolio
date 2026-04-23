@@ -21,6 +21,9 @@
   filter: drop-shadow(
     0 0 0.5em rgba(244, 232, 4, 0.841)
   ); /* aplica iluminação */
+
+  width: 90%;
+  text-align: right;
 }
 
 /* Tablet e acima */
@@ -28,5 +31,6 @@
 @media (min-width: 768px) {
   .header__name {
     font-size: 14px;
+    text-align: left;
   }
 }
