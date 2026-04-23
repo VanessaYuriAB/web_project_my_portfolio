@@ -13,10 +13,12 @@
 .projects__list {
   list-style-type: none;
   margin: 0;
+  margin-top: 24px;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
 }
 
 .projects__pair-items {
@@ -24,16 +26,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.projects__details {
-  margin: 24px 10px 0;
+  gap: 20px;
 }
 
 /* Tablet e acima */
 
 @media (min-width: 768px) {
-  .projects__details {
-    margin: 38px 10px 0;
+  .projects__list {
+    margin-top: 38px;
   }
 }
