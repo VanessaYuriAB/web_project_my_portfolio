@@ -5,29 +5,29 @@
 }
 
 .content__intro {
-  margin: 24px auto 0;
+  margin: 1.5rem auto 0;
 }
 
 .content__about-me {
-  margin: 48px auto 0;
+  margin: 3rem auto 0;
 }
 
 .content__projects {
-  margin: 48px auto 0;
+  margin: 3rem auto 0;
 }
 
 /* Tablet e acima */
 
 @media (min-width: 768px) {
   .content__intro {
-    margin: 38px auto 0;
+    margin: 2.375rem auto 0;
   }
 
   .content__about-me {
-    margin: 76px auto 0;
+    margin: 4.75rem auto 0;
   }
 
   .content__projects {
-    margin: 76px auto 0;
+    margin: 4.75rem auto 0;
   }
 }

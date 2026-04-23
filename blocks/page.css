@@ -15,7 +15,7 @@
 }
 
 .page__header {
-  margin-top: 14px;
+  margin-top: 0.875rem;
 }
 
 .page__content {
@@ -24,7 +24,7 @@
 }
 
 .page__footer {
-  margin: 76px auto 0;
+  margin: 4.75rem auto 0;
 }
 
 /* Tablet e acima */
@@ -35,6 +35,6 @@
   }
 
   .page__footer {
-    margin: 96px auto 0;
+    margin: 6rem auto 0;
   }
 }

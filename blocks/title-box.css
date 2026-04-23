@@ -15,7 +15,7 @@
   width: 35%;
   height: 1px;
   background-color: #92909081;
-  margin: 5px auto;
+  margin: 0.375rem auto;
 }
 
 /* Tablet e acima */
@@ -30,6 +30,6 @@
   }
 
   .title-box__rec_about-me {
-    margin: 5px 0 0 auto;
+    margin: 0.375rem 0 0 auto;
   }
 }

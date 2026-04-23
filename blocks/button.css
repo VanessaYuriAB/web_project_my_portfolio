@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
 
-  margin-top: 12px;
+  margin-top: 0.75rem;
   padding: 6px 9px;
   border-radius: 5px;
 
@@ -45,6 +45,6 @@
 
 @media (min-width: 768px) {
   .button {
-    margin-top: 19px;
+    margin-top: 1.25rem;
   }
 }

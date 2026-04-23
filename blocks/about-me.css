@@ -1,7 +1,7 @@
 /* Mobile first (padrão) */
 
 .about-me__image-box {
-  margin: 24px auto 0;
+  margin: 1.5rem auto 0;
 }
 
 /* Tablet e acima */
@@ -22,6 +22,6 @@
 
   .about-me__image-box {
     margin: 0;
-    margin-right: 38px;
+    margin-right: 2.375rem;
   }
 }
