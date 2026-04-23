@@ -16,8 +16,8 @@
 
   .about-me__column {
     width: 60%;
-    min-width: 420px;
-    max-width: 620px;
+    min-width: 26.25rem;
+    max-width: 38.75rem;
   }
 
   .about-me__image-box {

@@ -9,7 +9,7 @@
 
 .nav__menu {
   display: flex;
-  column-gap: 12px;
+  column-gap: 0.75rem;
   font-size: 0.875rem;
   list-style-type: none;
   padding: 0;
@@ -20,7 +20,7 @@
 
 @media (min-width: 768px) {
   .nav__menu {
-    column-gap: 38px;
+    column-gap: 2.375rem;
     font-size: 1rem;
   }
 }
