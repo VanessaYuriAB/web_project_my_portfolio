@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   max-width: 12.5rem;
-  min-height: 17.85rem;
+  min-height: 20.6875rem;
 
   background-color: #fdc4355b;
   color: #453201e1;
@@ -23,10 +23,15 @@
   margin: 0;
 }
 
-.details__button {
+.details__btns-box {
   margin-top: auto;
-  width: 50%;
   align-self: center;
+  width: 90%;
+}
+
+.details__button {
+  font-size: 0.875rem;
+  text-align: center;
 }
 
 /* Tablet e acima */
@@ -36,5 +41,30 @@
     max-width: 90%;
     min-width: 90%;
     min-height: 10.3125rem;
+  }
+
+  .details__btns-box {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    justify-content: center;
+  }
+
+  .details__button {
+    font-size: 1rem;
+    width: 50%;
+    max-width: 18.375rem;
+  }
+}
+
+@media (min-width: 936px) {
+  .details {
+    min-height: 9.0625rem;
+  }
+}
+
+@media (min-width: 1364px) {
+  .details {
+    min-height: 7.8125rem;
   }
 }
