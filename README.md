@@ -7,6 +7,13 @@ pessoal, **iniciado durante a Sprint 5 (Design Web Adaptativo) do bootcamp de**
 Foi **continuado após a conclusão do curso e finalizado**, incorporando melhorias
 estruturais, de organização de código e de boas práticas.
 
+Documenta a **evolução do aprendizado inicial em front‑end e a aplicação progressiva de**
+**boas práticas**, contendo os quatro projetos independentes iniciais do curso,
+desenvolvidos ao longo das quatro primeiras Sprints.
+
+Foi, inicialmente, estruturado com abordagem desktop-first e, posteriormente, refatorado
+para abordagem **mobile-first**.
+
 ---
 
 ## 🔗 Visualização do Projeto
