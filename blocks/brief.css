@@ -10,4 +10,18 @@
   .brief {
     text-align: right;
   }
+
+  .brief__text {
+    overflow: hidden;
+    animation: reverse-reveal 4s ease forwards;
+  }
+
+  @keyframes reverse-reveal {
+    from {
+      clip-path: inset(0 0 0 100%);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
 }

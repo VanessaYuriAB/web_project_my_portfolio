@@ -20,8 +20,22 @@
     max-width: 38.75rem;
   }
 
+  .about-me__title-box {
+    overflow: hidden;
+    animation: reverse-reveal 4s ease forwards;
+  }
+
   .about-me__image-box {
     margin: 0;
     margin-right: 2.375rem;
+  }
+
+  @keyframes reverse-reveal {
+    from {
+      clip-path: inset(0 0 0 100%);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
   }
 }
