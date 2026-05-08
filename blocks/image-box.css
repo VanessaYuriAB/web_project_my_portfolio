@@ -33,5 +33,17 @@
   .image-box {
     width: 40%;
     max-width: 26.125rem;
+
+    overflow: hidden;
+    animation: top-reveal 4s ease forwards;
+  }
+
+  @keyframes top-reveal {
+    from {
+      clip-path: inset(100% 0 0 0);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
   }
 }

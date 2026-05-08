@@ -5,6 +5,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  overflow: hidden;
+  animation: bottom-reveal 4s ease forwards;
 }
 
 .nav__menu {
@@ -16,11 +19,29 @@
   margin: 0;
 }
 
+@keyframes bottom-reveal {
+  from {
+    clip-path: inset(0 0 0 100%);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
 /* Tablet e acima */
 
 @media (min-width: 768px) {
   .nav__menu {
     column-gap: 2.375rem;
     font-size: 1rem;
+  }
+
+  @keyframes bottom-reveal {
+    from {
+      clip-path: inset(0 0 100% 0);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
   }
 }
