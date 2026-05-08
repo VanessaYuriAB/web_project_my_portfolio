@@ -9,7 +9,7 @@
   color: #f2dca4e1;
   font-family: "Cause", "Trebuchet MS", "Gill Sans", Calibri, sans-serif;
 
-  min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
 }
