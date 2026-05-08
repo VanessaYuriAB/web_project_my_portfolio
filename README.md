@@ -60,6 +60,13 @@ Após a finalização do bootcamp, o projeto foi retomado e evoluiu significativ
 - **Padronização de unidades** (`rem`, `em`, `px`) conforme boas práticas
 - Evolução progressiva do código a partir de refatorações e feedback (Copilot)
 
+Além disso, foram introduzidas **animações em CSS** puro com foco em leveza e performance,
+incluindo:
+
+- Implementação de animações de revelação (_reveal_) de conteúdo com `clip-path`
+- Controle de fluxo visual por meio de animações direcionais (ex.: esquerda → direita e
+  direita → esquerda)
+
 Essa fase refletiu o amadurecimento técnico adquirido ao longo do curso e a aplicação
 consciente de conceitos como reuso, legibilidade e manutenção de código.
 
@@ -74,6 +81,9 @@ consciente de conceitos como reuso, legibilidade e manutenção de código.
 - Media queries
 - Organização modular de estilos
 - Template base do Figma
+- Animações com CSS (`@keyframes`, `clip-path`) focadas em _motion UI leve_\*
+
+* _Uso de animações sutis e performáticas voltadas à experiência do usuário._
 
 ---
 
@@ -125,7 +135,9 @@ Mais do que o resultado visual, ele reflete:
 - aprendizado progressivo
 - tomada de decisões técnicas conscientes
 - valorização de boas práticas
-- evolução do raciocínio em CSS e HTML
+- evolução do raciocínio em HTML e CSS, incluindo uso de animações e microinterações
+- uso de transições e efeitos sutis com foco em usabilidade, fluidez e performance
+- uso de CSS para simulação de comportamentos dinâmicos sem dependência de JavaScript
 
 Mantê‑lo público é uma forma de registrar e acompanhar minha evolução técnica ao longo do
 tempo, permanecendo como um marco inicial da minha formação em front‑end, enquanto
